@@ -10,7 +10,7 @@ public class DemoResource {
 
     @GetMapping("/demo")
     public String getDemo() {
-        return "It's alive!";
+        return "It's alive! Ciao";
     }
 
 }
